@@ -4,6 +4,7 @@
 
 body {
   margin: 2.2rem;
+  line-height: 1.6;
 }
 
 div#resume {
@@ -95,6 +96,7 @@ div#resume img {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   width: 30%;
   max-width: 220px;
+  clear: right;
 }
 
 @media screen and (max-width: 1100px) {
@@ -120,8 +122,8 @@ div#resume img {
     border-bottom: 1px solid #999;
   }
   div#resume dl,
-  div#resume dl dd,
-  div#resume dl dt {
+div#resume dl dd,
+div#resume dl dt {
     display: block;
     padding-left: 0;
     margin-left: 0;
@@ -143,10 +145,14 @@ div#resume img {
   h1 {
     font-size: 36px;
     margin-right: 0;
-    line-height: 0;
+    line-height: 1.2;
   }
   div#resume img {
     margin: 0;
+  }
+  p,
+  li {
+    margin-right: 20px;
   }
 }
 
@@ -162,8 +168,5 @@ div#resume img {
     width: 320px;
     padding: 12px;
     overflow: hidden;
-  }   p,
-  li {
-    margin-right: 20px;
   }
 }

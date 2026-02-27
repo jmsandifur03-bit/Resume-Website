@@ -1,13 +1,12 @@
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header h2 {
-  margin: 0;
+h2 {
+    word-break: break-word;
 }
 
-.header span {
-  margin-left: 10px;
-}
+/* Additional styles can go here */
